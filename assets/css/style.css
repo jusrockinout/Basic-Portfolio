@@ -1,0 +1,51 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+*/
+
+
+body {
+		background-image: url(http://i65.tinypic.com/2n1su9d.jpg);
+		}
+
+h1,h2,h3, .background {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+		}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.top-panel{
+	background-color: #ffffff;
+	border-color: #cccccc;
+	text-align: center;
+	border: solid;
+	}
+
+.center-panel{
+	background-color: #ffffff;
+	border-color: #dddddd;
+	float: left;
+	border: solid;
+	text-align: center;
+	width: 43%;
+	}
+
+.bottom-panel{
+	background color: #666666;
+	}
+
+.left-panel{
+	float: left;
+	border: solid;
+	width: 337px;
+	}
+
+.right-panel{
+	float: right;
+	border: solid;
+	width: 30%
+	}
