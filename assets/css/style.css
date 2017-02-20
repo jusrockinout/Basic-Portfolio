@@ -2,50 +2,60 @@
 Teal color (used for headings and backgrounds): #4aaaa5
 Regular font color (used for paragraphs and all text besides the headings): #777777
 */
-
-
 body {
-		background-image: url(http://i65.tinypic.com/2n1su9d.jpg);
+			background-image: url(http://i65.tinypic.com/2n1su9d.jpg);
 		}
 
-h1,h2,h3, .background {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
+h1,h2,h3 {
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			color: #4aaaa5;
+		}
+
+h2{
+	text-align: left;
+}
+
+h3 {
+			text-align: center;
 		}
 
 p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-}
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			color: #777777;
+		}
 
-.top-panel{
-	background-color: #ffffff;
-	border-color: #cccccc;
-	text-align: center;
-	border: solid;
-	}
+.header{
+			text-align: center;
+			width: 100%;
+			background-color: #ffffff;
+			border-style: solid;
+    		border-width: 3px;
+			border-color: #cccccc;
+ 		}
 
-.center-panel{
-	background-color: #ffffff;
-	border-color: #dddddd;
-	float: left;
-	border: solid;
-	text-align: center;
-	width: 43%;
-	}
+.main-content{
+			float: left;
+			border: solid;
+			width: 350px;
+			background-color: #ffffff;
+			margin: 100px 150px 100px 80px;
+		}
 
-.bottom-panel{
-	background color: #666666;
-	}
-
-.left-panel{
-	float: left;
-	border: solid;
-	width: 337px;
-	}
-
-.right-panel{
-	float: right;
-	border: solid;
-	width: 30%
-	}
+	
+.sidebar{
+			float: right;
+			border: solid;
+			width: 25%;
+			background-color: #ffffff;
+			margin: 100px 150px 100px 80px;
+		}
+		
+.footer{
+			clear: both;
+			position: static;
+			width: 100%;
+			background color: #666666;
+			border-style: solid;
+			border-top-width: 3px;
+			border-top-color: #4aaaa5;
+		}
